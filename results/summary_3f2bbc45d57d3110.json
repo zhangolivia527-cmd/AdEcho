@@ -1,0 +1,61 @@
+{
+  "baseline": {
+    "n": 20,
+    "correct": 10,
+    "accuracy_all": 0.5,
+    "balanced_accuracy_all": 0.5,
+    "coverage": 1.0,
+    "accuracy_answered": 0.5,
+    "abstention_rate": 0.0,
+    "error_rate": 0.0,
+    "confusion": {
+      "native_ad": {
+        "native_ad": 0,
+        "editorial": 10,
+        "abstain": 0,
+        "null": 0
+      },
+      "editorial": {
+        "native_ad": 0,
+        "editorial": 10,
+        "abstain": 0,
+        "null": 0
+      }
+    },
+    "mean_latency_seconds": 0.0021776614000032168
+  },
+  "ai": {
+    "n": 20,
+    "correct": 9,
+    "accuracy_all": 0.45,
+    "balanced_accuracy_all": 0.44999999999999996,
+    "coverage": 0.55,
+    "accuracy_answered": 0.8181818181818182,
+    "abstention_rate": 0.1,
+    "error_rate": 0.35,
+    "confusion": {
+      "native_ad": {
+        "native_ad": 7,
+        "editorial": 0,
+        "abstain": 0,
+        "null": 3
+      },
+      "editorial": {
+        "native_ad": 2,
+        "editorial": 2,
+        "abstain": 2,
+        "null": 4
+      }
+    },
+    "mean_latency_seconds": 2.36071,
+    "L1_valid_response_rate": 0.65,
+    "reported_cost_usd_sum": 0.0060108,
+    "calls_without_cost": 0,
+    "cost_complete": true,
+    "cost_per_case_usd": 0.00030054,
+    "abstained_with_raw_binary_decision": 0,
+    "wrong_raw_decisions_among_those_abstained": 0
+  },
+  "complete_20_cases": true,
+  "run_id": "3f2bbc45d57d3110"
+}

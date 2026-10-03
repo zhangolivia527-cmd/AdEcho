@@ -1,0 +1,9 @@
+{
+  "run_id": "3f2bbc45d57d3110",
+  "expected_cases": 20,
+  "evaluated_cases": 20,
+  "human_reviewed": 20,
+  "human_passes": 8,
+  "L2_pass_rate_all_20": 0.4,
+  "complete": true
+}

@@ -1,0 +1,102 @@
+{
+  "AD01": {
+    "verdict": "Fail",
+    "reason": "The response failed exact-quote validation because one cue changed “The” to “the”. The raw classification matched the reference label, but the system returned no usable classification.",
+    "reviewed_at": "2026-10-03T12:08:09.462756+00:00"
+  },
+  "AD02": {
+    "verdict": "Fail",
+    "reason": "The response failed exact-quote validation because two cues replaced curly apostrophes with straight apostrophes. The raw classification matched the reference label, but the system returned no usable classification.",
+    "reviewed_at": "2026-10-03T12:09:19.672615+00:00"
+  },
+  "AD03": {
+    "verdict": "Pass",
+    "reason": "The classification matches the reference label. The exact quotes identify exclusive dining offers for UOB cardmembers and support the promotional-content assessment.",
+    "reviewed_at": "2026-10-03T12:10:04.613038+00:00"
+  },
+  "AD04": {
+    "verdict": "Fail",
+    "reason": "One cue added “HSBC” before a phrase that did not contain it in the source text. This failed exact-quote validation, so the system returned no usable classification.",
+    "reviewed_at": "2026-10-03T12:10:22.531386+00:00"
+  },
+  "AD05": {
+    "verdict": "Pass",
+    "reason": "The classification matches the reference label. Exact quotes describe Visa Protect and invite readers to learn about its services, supporting the promotional-content assessment.",
+    "reviewed_at": "2026-10-03T12:11:04.534189+00:00"
+  },
+  "AD06": {
+    "verdict": "Fail",
+    "reason": "The label matches the reference, but the reasoning relies on vaccination advocacy, organisation mentions and a website link. These cues alone do not adequately establish paid or sponsored content.",
+    "reviewed_at": "2026-10-03T12:11:20.736669+00:00"
+  },
+  "AD07": {
+    "verdict": "Pass",
+    "reason": "The classification matches the reference label. Exact quotes describe mall spending rewards and explicitly encourage readers to visit Palais Renaissance.",
+    "reviewed_at": "2026-10-03T12:11:36.325628+00:00"
+  },
+  "AD08": {
+    "verdict": "Pass",
+    "reason": "The classification matches the reference label. The quoted invitation to explore AIA services, alongside its branded initiatives, supports the promotional-content assessment.",
+    "reviewed_at": "2026-10-03T12:11:51.448160+00:00"
+  },
+  "AD09": {
+    "verdict": "Pass",
+    "reason": "The classification matches the reference label. The quotes support an event-promotion assessment, including an invitation for industry professionals to register.",
+    "reviewed_at": "2026-10-03T12:12:05.355394+00:00"
+  },
+  "AD10": {
+    "verdict": "Pass",
+    "reason": "The classification matches the reference label. Exact quotes describe shopping promotions, a sponsored prize and retail activities, supporting the promotional-content assessment.",
+    "reviewed_at": "2026-10-03T12:12:21.702986+00:00"
+  },
+  "ED01": {
+    "verdict": "Fail",
+    "reason": "A cue changed quotation marks and punctuation, causing exact-quote validation to fail. The system returned no usable classification.",
+    "reviewed_at": "2026-10-03T12:13:46.149907+00:00"
+  },
+  "ED02": {
+    "verdict": "Fail",
+    "reason": "The response abstains without providing evidence quotes. Its explanation describes informative reporting but does not identify a specific ambiguity that justifies abstention.",
+    "reviewed_at": "2026-10-03T12:13:57.738910+00:00"
+  },
+  "ED03": {
+    "verdict": "Fail",
+    "reason": "The response incorrectly treats a clinical-trial participation link as evidence of sponsorship. Public-interest recruitment information alone does not establish native advertising.",
+    "reviewed_at": "2026-10-03T12:14:12.224269+00:00"
+  },
+  "ED04": {
+    "verdict": "Pass",
+    "reason": "The classification matches the reference label. Exact quotes about the accident and police investigation support the editorial assessment.",
+    "reviewed_at": "2026-10-03T12:14:25.388560+00:00"
+  },
+  "ED05": {
+    "verdict": "Fail",
+    "reason": "One cue changed “he” to “He”, causing exact-quote validation to fail. The system returned no usable classification.",
+    "reviewed_at": "2026-10-03T12:14:40.262517+00:00"
+  },
+  "ED06": {
+    "verdict": "Fail",
+    "reason": "The response infers sponsorship from descriptions of a business and its projects. These mentions alone do not establish paid content, and the classification contradicts the reference label.",
+    "reviewed_at": "2026-10-03T12:14:55.817935+00:00"
+  },
+  "ED07": {
+    "verdict": "Fail",
+    "reason": "The quotes and explanation describe reporting on consumer risks and regulation, but the response does not identify a specific ambiguity that justifies abstention.",
+    "reviewed_at": "2026-10-03T12:15:09.927208+00:00"
+  },
+  "ED08": {
+    "verdict": "Fail",
+    "reason": "One cue changed “A” to “a”, causing exact-quote validation to fail. The intended abstention did not pass validation.",
+    "reviewed_at": "2026-10-03T12:15:23.217601+00:00"
+  },
+  "ED09": {
+    "verdict": "Pass",
+    "reason": "The classification matches the reference label. Exact quotes about national vaccination schedules and subsidies support the editorial assessment.",
+    "reviewed_at": "2026-10-03T12:15:47.578481+00:00"
+  },
+  "ED10": {
+    "verdict": "Fail",
+    "reason": "One cue changed “The” to “the”, causing exact-quote validation to fail. The system returned no usable classification.",
+    "reviewed_at": "2026-10-03T12:16:00.629201+00:00"
+  }
+}
